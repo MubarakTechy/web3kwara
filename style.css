@@ -1,0 +1,570 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: none;
+}
+.kwara{
+   background-image: url(/Background\ Image.png);
+   background-repeat: no-repeat;
+   height:120vh;
+}
+section.kwara{
+    display: flex;
+    flex-direction: column;
+    gap: 17%;
+    padding-bottom: 20%;
+}
+.web{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.web2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    color: white;
+}
+.pic img{
+    width: 50%;
+}
+.web3 {
+    height: 6vh;
+    width: 9pc;
+    background-color: orange;
+    color: white;
+}
+.kwara2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.web4{
+    color: white;
+    font-size: 50px;
+    width: 40%;
+}
+.web5{
+    color: grey;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 30%;
+}
+.web6{
+    margin-top: 3pc;
+    height: 7vh;
+    width: 10pc;
+    background-color: rgb(241, 158, 4);
+    color: white;
+}
+.About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 234, 237);
+    padding: 3pc;
+    padding-bottom: 50%;
+}
+.About2{
+    font-size: 50px;  
+    margin-bottom: 2pc; 
+}
+.About3{
+    color: rgb(61, 61, 61);
+    font-size: 25px;
+}
+.About3 img{
+    width: 70vh;
+}
+.Events{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 5pc;
+}
+.big h1{
+    font-size: 50px;
+    text-align: center;
+  
+} 
+.Events2 img{
+    height: 50vh;
+}
+.Events3 img{
+    height: 50vh;
+    width: 27pc;
+}
+.Events4 img{
+    height: 50vh;
+    width: 27pc;
+}
+.Ever{
+    height: 12vh;
+    box-shadow:0px 4px 10px;
+    gap: 20px;
+}
+.Ever h3{
+    font-size: 30px;
+}
+.Ever p{
+    font-size: 20px;
+}
+
+.coming{
+    height: 12vh;
+    box-shadow:0px 4px 10px;
+    gap: 20px;
+}
+.coming h3{
+    font-size: 30px;
+}
+.coming p{
+    font-size: 20px;
+}
+
+.up{
+    height: 12vh;
+    box-shadow:0px 4px 10px;
+    gap: 20px;
+}
+.up h3{
+    font-size: 30px;
+}
+.up p{
+    font-size: 20px;
+}
+.Oranganisers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10pc;
+    margin: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.drey img{
+    height: 10vh;
+}
+
+.orangan h1{
+    font-size: 50px;
+    /* margin-left: 30pc;
+    padding: 3pc; */
+}
+.Oranganisers2{
+    font-size: 40px;
+}
+.Oranganisers3{
+    font-size: 20px;
+}
+.Oranganisers4{
+    height: 5vh;
+}
+.Oranganisers5{
+    height: 7vh;
+}
+.gan1{
+    line-height: 3pc;
+}
+.gan2{
+    line-height: 3pc;
+}
+.gan3{
+    line-height: 5pc;
+}
+.mr{
+    font-size: 40px;
+}
+.mr2{
+    font-size: 20px;
+}
+.mr3{
+    height: 5vh;
+}
+.mr4{
+    height: 7vh;
+}
+.product1{
+    font-size: 40px;
+}
+.product2{
+    font-size: 20px;
+}
+.product3{
+    height: 5vh;
+}
+.product4{
+    height: 7vh;
+}
+.meet{
+    background-color: rgb(252, 240, 242);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.visting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 10pc;
+}
+.visting2 img{
+    height: 90vh;
+}
+.visiting3{
+    font-size: 50px;
+}
+.visiting4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.Visiting5{
+    height: 8vh;
+    width: 10pc;
+    background-color: orange;
+    margin-top: 3pc;
+    color: white ;
+}
+.comit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5pc;
+    /* gap: 15pc; */
+    background-color: rgb(242, 249, 249);
+    border-top:solid thin rgb(213, 198, 198);
+}
+.comit2 h3{
+    font-size: 30px;
+    line-height: 3pc;
+}
+.comit3{
+    font-size: 25px;
+    list-style: none;
+    line-height: 2pc;
+}
+/* .Oranganisers11{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10pc;  
+    padding: pc;
+    text-align: center;
+} */
+.meet2{
+    background-color:  rgb(252, 240, 242);
+}
+.rrr{
+    line-height: 3pc;
+}
+.Oranganisers12{
+    font-size: 40px;
+}
+.Oranganisers13{
+    font-size: 20px;    
+}
+.Oranganisers14{
+    height: 5vh;
+}
+.Oranganisers15{
+    height: 7vh;
+}
+.rrr2{
+    line-height: 3pc;
+}
+.rrr3{
+    line-height: 3pc;
+}
+.mr11{
+    font-size: 40px;
+}
+.mr12{
+    font-size: 20px;
+}
+.mr13{
+    height: 5vh;
+}
+.mr14{
+    height: 7vh;
+}
+.product11{
+    font-size: 40px;
+}
+.product12{
+    font-size: 20px;
+}
+.product13{
+    height: 5vh;
+}
+.product14{
+    height: 7vh;
+}
+ @media screen and (max-width:950px){
+
+    .kwara{
+        background-image: url(/Background\ Image.png);
+        background-repeat: no-repeat;
+        height:90vh;
+    }
+    .web{
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+    }
+    .pic img{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .web2{
+        display: none;
+    }
+    .web3{
+        display: none;
+    }
+    .web4{
+        width: 50%;
+        font-size: 30px;
+    }
+    .web5{
+        width: 70%;
+        font-size: 20px;
+    }
+    .About{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .About2{
+        font-size: 20px;
+    }
+    .About3{
+        font-size: 20px
+    }
+    .About3 img{
+        width: 100%;
+    }
+    .big h1{
+        font-size: 30px;
+    }
+    .Events{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Events2 img{
+        height: 200px;
+        width: 260px;
+    }
+    .Ever h3{
+        font-size: 20px;
+    }
+    .Ever p{
+        font-size: 15px;
+    }
+    .Ever{
+        width: 100%;
+        display: flex;
+        flex-direction: column ;
+    }
+  
+    .Events3 img{
+        height: 150px;
+        width: 260px;
+    }
+    .coming h3{
+        font-size: 20px;
+    }
+    .coming p{
+        font-size: 15px;
+    }
+    .coming{
+        width: 100%;
+        display: flex;
+        flex-direction: column ;
+    }
+    .Events4 img{
+        height: 200px;
+        width: 260px;
+    }
+    .up h3{
+        font-size: 20px;
+    }
+    .up p{
+        font-size: 15px;
+    }
+    .up{
+        width: 100%;
+        display: flex;
+        flex-direction: column ;
+    }
+    .big h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .orangan h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .Oranganisers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gan1 img{
+        width: 70%;
+    }
+    .Oranganisers2{
+        font-size: 25px;
+    }
+    .Oranganisers3{
+        font-size: 15px;
+    }
+    .Oranganisers4{
+        width: 10%;
+    }
+    .drey{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sat img{
+        width: 30px;
+    }
+    .gan2 img{
+        width: 70%;
+    }
+    .mr{
+        font-size: 25px;
+    }
+    .mr2{
+        font-size: 15px;
+    }
+    .drey2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sat2 img{
+        width: 30px;
+    }
+    .gan3 img{
+        width: 70%;
+    }
+    .product1{
+        font-size: 25px;
+    }
+    .product2{
+        font-size: 15px;
+    }
+    .drey3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sat3 img{
+        width: 30px;
+    }
+    .rrr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     .Oranganisers12{
+        font-size: 25px;
+    }
+    .Oranganisers13{
+        font-size: 15px;
+    }
+    .Oranganisers14{
+        width: 10%;
+    }
+    .rrr img{
+        width: 70%;
+    }
+    .drey img{
+        height: 30px;
+    }
+    .mr11{
+        font-size: 25px;
+    }
+    .mr12{
+        font-size: 15px;
+    }
+    .mr13{
+        width: 10%;
+    }
+    .rrr2 img{
+        width: 70%;
+    }
+    .elite img{
+        width: 30px;
+    }
+    .product11{
+        font-size: 25px;
+    }
+    .product12{
+        font-size: 15px;
+    }
+    .rrr3 img{
+        width: 70%;
+    }
+    .drey2 img{
+        width: 30px;
+    }
+    .visting{
+        display: flex;
+        flex-direction: column;
+    }
+    .visting2 img{
+        height: 300px;
+    }
+    .visiting3{
+        font-size: 40px;
+    }
+    .visiting4{
+        font-size: 17px ;
+    }
+    .Visiting5{
+        height: 4vh;
+        width: 100px;
+    }
+    .commit{
+        display: flex;
+        line-height: 20px;
+    }
+    .comit2 h3{
+        font-size: 20px;
+    } 
+    .comit3{
+        font-size: 20px;
+    } 
+    .com img{
+        width: 30px;
+
+    }
+
+}
